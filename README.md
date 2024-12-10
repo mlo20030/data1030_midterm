@@ -83,5 +83,5 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ---
 
-**## Contact**  
+## Contact  
 For questions, please contact **Morgan_Lo@brown.edu** or open an issue on the GitHub repository.  
