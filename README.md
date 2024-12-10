@@ -36,7 +36,6 @@ Key features include:
 - The XGBoost model achieved the highest test accuracy of **92.59%**, outperforming the baseline accuracy of 20%.  
 - Logistic Regression achieved an accuracy of **81.48%**, while Random Forest scored **83.95%**, and KNN achieved **81.48%**.  
 - **Global Feature Importance** revealed that key predictors of food category included **Selenium, Vitamin B3, and Cholesterol**.  
-- The precision-recall curves showed tradeoffs in model performance, with XGBoost demonstrating strong precision and recall.  
 
 
 ---
