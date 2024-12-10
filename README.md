@@ -1,13 +1,13 @@
-**# Food Categorization Using Machine Learning**  
+# Food Categorization Using Machine Learning  
 
-**## Overview**  
+## Overview  
 This project focuses on building and evaluating machine learning models to predict food categories based on their nutritional content. By leveraging various supervised learning algorithms, including Logistic Regression, Random Forest, K-Nearest Neighbors (KNN), and XGBoost, we aim to classify food items into one of five categories: Fruits, Vegetables, Dairy, Grains, and Meat. The project demonstrates the end-to-end machine learning pipeline, including data preprocessing, feature engineering, hyperparameter tuning, model evaluation, and interpretability using global and local feature importance.  
 
 The final deliverables for this project include a technical report, presentation slides, and this well-organized repository. The report discusses the problem, methods, evaluation metrics, model results, and potential areas for improvement.  
 
 ---
 
-**## Project Structure**  
+## Project Structure  
 ```
 .
 ├── data/              # Raw and preprocessed data files
@@ -22,7 +22,7 @@ The final deliverables for this project include a technical report, presentation
 
 ---
 
-**## Dataset**  
+## Dataset  
 The dataset used in this project is the Foodstruct Nutritional Facts dataset, which includes information on the nutritional content of various food items. Each row corresponds to a specific food, and columns represent its nutritional content, such as calories, protein, fats, carbohydrates, and other micronutrients. The target variable is the **Category Name**, which classifies each food item into one of five categories: **Fruits, Vegetables, Dairy, Grains, and Meat**.  
 
 Key features include:  
@@ -34,7 +34,7 @@ Key features include:
 
 ---
 
-**## Machine Learning Pipeline**  
+## Machine Learning Pipeline  
 1. **Data Preprocessing**  
    - Handling missing data:  
      - **XGBoost**: Built-in handling of missing continuous variables.  
@@ -64,7 +64,7 @@ Key features include:
 
 ---
 
-**## Results**  
+## Results  
 - The XGBoost model achieved the highest test accuracy of **92.59%**, outperforming the baseline accuracy of 20%.  
 - Logistic Regression achieved an accuracy of **81.48%**, while Random Forest scored **83.95%**, and KNN achieved **81.48%**.  
 - **Global Feature Importance** revealed that key predictors of food category included **Selenium, Vitamin B3, and Cholesterol**.  
@@ -72,7 +72,7 @@ Key features include:
 
 ---
 
-**## Installation and Reproducibility**  
+## Installation and Reproducibility  
 ### **1. Clone the Repository**  
 ```bash
 git clone https://github.com/yourusername/food-categorization-ml.git
